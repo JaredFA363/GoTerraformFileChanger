@@ -1,13 +1,8 @@
 name: runner-automation-test
 on:
-  pull_request:
-    branches:
-      - master
-    paths:
-      - '.github/workflows/terraformChange.yml'
   push:
     branches:
-      - master
+      - main
     paths:
       - '.github/workflows/terraformChange.yml'
 
