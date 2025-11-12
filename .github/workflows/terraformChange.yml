@@ -4,12 +4,12 @@ on:
     branches:
       - master
     paths:
-      - '.github/workflows/runner-automation.yml'
+      - '.github/workflows/terraformChange.yml'
   push:
     branches:
       - master
     paths:
-      - '.github/workflows/runner-automation.yml'
+      - '.github/workflows/terraformChange.yml'
 
 permissions:
   contents: read
